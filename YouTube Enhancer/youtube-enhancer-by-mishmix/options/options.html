@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Enhancer by Mishmix</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="app" data-theme>
+      <header class="app__header">
+        <div class="branding" aria-labelledby="app-title">
+          <div class="branding__icon" aria-hidden="true">✨</div>
+          <div class="branding__text">
+            <h1 class="branding__title" id="app-title"></h1>
+            <p class="branding__subtitle" id="app-desc"></p>
+          </div>
+        </div>
+        <div class="toolbar" role="group" aria-label="Actions">
+          <button type="button" class="toolbar__button" id="enable-all"></button>
+          <button type="button" class="toolbar__button" id="reset"></button>
+          <button type="button" class="toolbar__button" id="export"></button>
+          <button type="button" class="toolbar__button" id="import"></button>
+          <label class="toolbar__search" id="search-label">
+            <span class="sr-only" id="search-text"></span>
+            <input type="search" id="search" autocomplete="off" spellcheck="false" />
+          </label>
+        </div>
+      </header>
+      <main class="app__main" id="main" tabindex="-1">
+        <p class="app__about" id="about"></p>
+        <div class="groups" id="groups"></div>
+        <p class="empty-state" id="no-results" hidden></p>
+      </main>
+      <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+      <input type="file" id="import-input" accept="application/json" hidden />
+    </div>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
