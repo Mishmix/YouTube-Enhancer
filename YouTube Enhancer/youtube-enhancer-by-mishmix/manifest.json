@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options/options.html"
+}

@@ -1,0 +1,102 @@
+[data-yte-hidden="1"] {
+  display: none !important;
+}
+
+html[data-yte-hide-home="1"] ytd-guide-renderer a.yt-simple-endpoint[href="/"] {
+  display: none !important;
+}
+
+html[data-yte-hide-subscriptions-menu-item="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/subscriptions"] {
+  display: none !important;
+}
+
+html[data-yte-hide-subscriptions-channels-list="1"] #section-items[data-yte-hidden="1"] {
+  display: none !important;
+}
+
+html[data-yte-remove-empty-subscriptions-block="1"] ytd-guide-section-renderer[data-yte-hidden="1"],
+html[data-yte-remove-empty-subscriptions-block="1"] ytd-guide-collapsible-section-entry-renderer[data-yte-hidden="1"] {
+  display: none !important;
+}
+
+html[data-yte-hide-shorts-menu-item="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/shorts"] {
+  display: none !important;
+}
+
+html[data-yte-hide-you-tube-music-menu-item="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="https://music.youtube.com"] {
+  display: none !important;
+}
+
+html[data-yte-hide-downloads="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/downloads"] {
+  display: none !important;
+}
+
+html[data-yte-hide-your-videos="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/library"],
+html[data-yte-hide-your-videos="1"] ytd-guide-renderer a.yt-simple-endpoint[href$="/videos"] {
+  display: none !important;
+}
+
+html[data-yte-hide-navigator-block="1"] ytd-guide-section-renderer[data-yte-hidden="1"],
+html[data-yte-hide-navigator-block="1"] ytd-guide-collapsible-section-entry-renderer[data-yte-hidden="1"] {
+  display: none !important;
+}
+
+html[data-yte-hide-history="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/history"] {
+  display: none !important;
+}
+
+html[data-yte-hide-playlists="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/playlists"],
+html[data-yte-hide-playlists="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/playlist?list="]:not([href*="list=WL"]):not([href*="list=LL"]) {
+  display: none !important;
+}
+
+html[data-yte-hide-watch-later="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/playlist?list=WL"] {
+  display: none !important;
+}
+
+html[data-yte-hide-liked="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/playlist?list=LL"] {
+  display: none !important;
+}
+
+html[data-yte-hide-your-clips="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/feed/clips"] {
+  display: none !important;
+}
+
+html[data-yte-hide-you-tube-studio="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="https://studio.youtube.com"] {
+  display: none !important;
+}
+
+html[data-yte-hide-you-tube-kids="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="https://www.youtubekids.com"] {
+  display: none !important;
+}
+
+html[data-yte-hide-more-from-you-tube-block-when-empty="1"] ytd-guide-section-renderer[data-yte-hidden="1"],
+html[data-yte-hide-more-from-you-tube-block-when-empty="1"] ytd-guide-collapsible-section-entry-renderer[data-yte-hidden="1"] {
+  display: none !important;
+}
+
+html[data-yte-hide-report-history="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/reporthistory"] {
+  display: none !important;
+}
+
+html[data-yte-hide-help="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/help"],
+html[data-yte-hide-help="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/t/"] {
+  display: none !important;
+}
+
+html[data-yte-hide-send-feedback="1"] ytd-guide-renderer a.yt-simple-endpoint[href*="feedback"] {
+  display: none !important;
+}
+
+html[data-yte-hide-guide-primary-secondary-links="1"] #guide-links-primary,
+html[data-yte-hide-guide-primary-secondary-links="1"] #guide-links-secondary {
+  display: none !important;
+}
+
+html[data-yte-remove-copyright-node="1"] #copyright {
+  display: none !important;
+}
+
+html[data-yte-hide-settings="1"] ytd-guide-renderer a.yt-simple-endpoint[href^="/account"] {
+  display: none !important;
+}
